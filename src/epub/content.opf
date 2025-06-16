@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/sophocles/ajax/francis-storr</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-06-16T17:37:31Z</dc:date>
+		<meta property="dcterms:modified">2025-06-16T17:37:31Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,14 +40,14 @@
 		<meta property="se:subject">Drama</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:description id="description">A great warrior descends into madness after being denied magical armor and slaughters the Greeks’ livestock, believing the animals are his fellow soldiers.</dc:description>
+		<dc:description id="description">A great warrior descends into madness after being denied magical armor.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;Ajax&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/sophocles"&gt;Sophocles&lt;/a&gt; is a Greek tragedy that tells the story of Ajax, a warrior in the Trojan War. After the armor of the slain Achilles is awarded to Odysseus instead of him, Ajax is consumed by rage and humiliation. In his madness, he attempts to kill the Greek leaders but is tricked by the goddess Athena into attacking livestock instead. When he regains his senses, Ajax chooses to take his own life rather than live in dishonor. His death ignites debates among the Greeks about whether he deserves a proper burial.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Ajax&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/sophocles"&gt;Sophocles&lt;/a&gt; is a Greek tragedy that tells the story of Ajax, a warrior in the Trojan War. After the armor of the slain Achilles is awarded to Odysseus instead of him, Ajax is consumed by rage and humiliation. In his madness, he attempts to kill the Greek leaders, but is tricked by the goddess Athena into attacking livestock instead. When he regains his senses, Ajax chooses to take his own life rather than live in dishonor. His death ignites debates among the Greeks about whether he deserves a proper burial.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/sophocleswitheng02soph</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">11896</meta>
+		<meta property="se:reading-ease.flesch">80.21</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Ajax_(play)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/sophocles_ajax_francis-storr</meta>
 		<dc:creator id="author">Sophocles</dc:creator>
@@ -76,6 +76,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Reimer</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://github.com/dajare</meta>
+		<meta property="se:url.authority.nacoaf" refines="#producer-2">http://id.loc.gov/authorities/names/n92075987</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
