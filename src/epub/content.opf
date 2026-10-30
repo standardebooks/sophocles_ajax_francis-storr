@@ -55,6 +55,7 @@
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/sophocles_ajax_francis-storr" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Sophocles</dc:creator>
+		<meta property="file-as" refines="#author">Sophocles</meta>
 		<meta property="alternate-script" refines="#author">Σοφοκλῆς</meta>
 		<link href="https://en.wikipedia.org/wiki/Sophocles" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79127755.html" refines="#author" rel="schema:sameAs"/>
